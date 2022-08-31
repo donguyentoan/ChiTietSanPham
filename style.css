@@ -1,0 +1,513 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: normal;
+    }
+    
+    .cs_section_product_detail {
+        width: 1280px;
+    }
+    
+    .container {
+        width: 1200px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .section_product_img_botoom img {
+        width: 70px;
+        height: 70px;
+        border: 2px solid #f3f3f3;
+    }
+    
+    .section_product_img_botoom {
+        width: 70px;
+        margin: auto;
+    }
+    
+    .section_product_left {
+        width: 380px;
+        height: 481px;
+    }
+    
+    .brand {
+        width: 744px;
+        height: 62px;
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    .brand_left {
+        width: 372px;
+        height: 62px;
+    }
+    
+    .brand_right {
+        width: 372px;
+        height: 62px;
+    }
+    
+    .brand_text_text {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .brand_text2 {
+        margin-left: 19px;
+        margin-top: 9px;
+    }
+    
+    .brand_text p {
+        padding-bottom: 10px;
+    }
+    
+    .section_product_right {
+        height: 110px;
+        border-bottom: 2px solid #edeef0;
+    }
+    
+    .section_product_img_bottom {
+        width: 380px;
+        height: 165px;
+    }
+    
+    .botom_title {
+        width: 378px;
+        height: 144px;
+        padding: 20px;
+    }
+    
+    .botom_title .item,
+    .botom_title1 .item {
+        width: 204px;
+        height: 58px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .section_product_title_bottom {
+        border: 2px solid #edeef0;
+        height: 172px;
+        width: 372px;
+        margin-top: 10px;
+    }
+    
+    .product_title {
+        width: 372px;
+        height: 48px;
+        background: #eff0f2;
+    }
+    
+    .product_title h3 {
+        padding: 13px 20px;
+    }
+    
+    .botoom_brand {
+        width: 784px;
+        height: 890px;
+        padding-top: 30px;
+    }
+    
+    .botoom_brand_left {
+        width: 392px;
+        height: 890px;
+        border: 2px solid #edeef0;
+        border-radius: 8px;
+    }
+    
+    .botoom_brand_right {
+        width: 372px;
+        height: 768px;
+    }
+    
+    .botom_title1 .item1 {
+        display: flex;
+    }
+    
+    .item1 {
+        width: 358px;
+        height: 60px;
+        border-bottom: 2px solid #edeef0;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    .product_title1 {
+        width: 392px;
+        height: 48px;
+        background: #eff0f2;
+    }
+    
+    .product_title1 h3 {
+        padding: 13px 20px;
+    }
+    
+    .item_left {
+        padding-top: 13px;
+    }
+    
+    .item_right {
+        padding-top: 13px;
+    }
+    
+    .item1_big {
+        width: 358px;
+        height: 74px;
+        display: flex;
+        padding-top: 10px;
+        border-bottom: 2px solid #edeef0;
+        margin: auto;
+    }
+    
+    .item_left_big {
+        width: 196px;
+        height: 84px;
+        padding-left: 20px;
+    }
+    
+    .item_right_big {
+        width: 196px;
+        height: 84px;
+        padding-left: 32px;
+    }
+    
+    .item1 .item_left {
+        padding-top: 13px;
+        padding-left: 20px;
+    }
+    
+    .item1_text {
+        width: 358px;
+        margin: auto;
+        padding-top: 10px;
+    }
+    
+    #item1_Xemthem {
+        width: 98px;
+        margin: auto;
+        padding-top: 15px;
+    }
+    
+    .poup_overlay {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        background: #000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    
+    .popup_img img {
+        width: 750px;
+        height: 500px;
+    }
+    
+    .poup_block {
+        width: 80%;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        margin-top: 25vh;
+    }
+    
+    .poup_block #tat {
+        position: absolute;
+        display: black;
+        top: -15px;
+        right: -15px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    .poup_block {
+        position: relative;
+    }
+    
+    .brand_text a {
+        color: #1890ff;
+        text-decoration: none;
+    }
+    
+    .brand_text1 a {
+        color: #1890ff;
+        text-decoration: none;
+    }
+    
+    .brand_text2 a {
+        color: #1890ff;
+        text-decoration: none;
+    }
+    
+    .price {
+        width: 372px;
+        height: 27.5px;
+        display: flex;
+    }
+    
+    .botoom_brand {
+        width: 784px;
+        height: 890px;
+        padding-top: 30px;
+        display: flex;
+    }
+    
+    #sec_discounted_price_89447 {
+        font-weight: bold;
+        color: #faa51a;
+        font-size: 24px;
+    }
+    
+    .ty-price-num {
+        font-weight: bold;
+        color: #faa51a;
+        font-size: 24px;
+    }
+    
+    .hop {
+        font-size: 15px;
+        padding-top: 8px;
+        color: #faa51a;
+    }
+    
+    .tang_sLuong {
+        width: 128px;
+        height: 40px;
+        display: flex;
+        border-radius: 10px;
+    }
+    
+    .sluong1 {
+        width: 40px;
+        height: 40px;
+        background: #f2f2f2;
+    }
+    
+    .sluong2 {
+        width: 40px;
+        height: 40px;
+        background: #f7f7f7;
+    }
+    
+    .sluong3 {
+        width: 40px;
+        height: 40px;
+        background: #f2f2f2;
+    }
+    
+    .sluong1 p {
+        width: 10px;
+        height: 40px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+    }
+    
+    .sluong2 p {
+        width: 10px;
+        height: 40px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+    }
+    
+    .sluong3 p {
+        width: 10px;
+        height: 40px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+    }
+    
+    .textduoisluong {
+        display: flex;
+        padding: 10px 0px 15px;
+        width: 372px;
+    }
+    
+    .dausao {
+        color: red;
+        font-size: 20px;
+        height: 20px;
+        padding-right: 4px;
+    }
+    
+    .padding {
+        padding: 0px 68px 0px 30px;
+    }
+    
+    .center {
+        margin-left: 32px;
+        width: 26px;
+        border: 1px solid #eb5757;
+        background: #eb5757;
+        padding: 1px 3px 1px 3px;
+    }
+    
+    .table tr {
+        border: 2px blue;
+        width: 200px;
+        height: 16px;
+    }
+    
+    .so_sanpham1 {
+        display: flex;
+        justify-content: space-around;
+        width: 370px;
+        height: 38px;
+        background: #eff0f2;
+        border-bottom: 1px solid #edeef0;
+    }
+    
+    .so_sanpham1 p {
+        display: flex;
+        align-items: center;
+        width: 120px;
+        height: 38px;
+        padding-left: 13px;
+    }
+    
+    .so_sanpham {
+        border: 1px solid #edeef0;
+        width: 370px;
+        height: 156px;
+        border-radius: 5px;
+    }
+    
+    .so_sanpham2 {
+        display: flex;
+        justify-content: space-around;
+        width: 370px;
+        height: 38px;
+        border-bottom: 1px solid #edeef0;
+    }
+    
+    .so_sanpham2 p {
+        display: flex;
+        align-items: center;
+        width: 120px;
+        height: 38px;
+        padding-left: 13px;
+    }
+    
+    .so_sanpham3 {
+        display: flex;
+        justify-content: space-around;
+        width: 370px;
+        height: 38px;
+    }
+    
+    .so_sanpham3 p {
+        display: flex;
+        align-items: center;
+        width: 120px;
+        height: 38px;
+        padding-left: 13px;
+    }
+    
+    .so_sanpham2 h4 {
+        background: red;
+        width: 35px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nut_mua_giohang {
+        height: 66.85px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        width: 372px;
+    }
+    
+    .nut_giohang {
+        width: 182px;
+        height: 56.85px;
+        background: #ffffff;
+        border-radius: 0.25rem;
+        border: 1px solid #ffa502;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffa502;
+    }
+    
+    .nut_mua {
+        width: 182px;
+        height: 56.85px;
+        background: #ffa502;
+        border-radius: 0.25rem;
+        border: 1px solid transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .soluong {
+        padding: 30px 0px 10px;
+    }
+    
+    .item_diachi {
+        display: flex;
+        justify-content: space-between;
+        width: 331px;
+    }
+    
+    .item_left1 img {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .item_right1_1 {
+        padding-right: 121px;
+    }
+    
+    .item_left img {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .item_right1_2 {
+        padding-top: 14px;
+        padding-right: 84px;
+    }
+    
+    .item_phivanchuyen {
+        display: flex;
+        justify-content: space-between;
+        width: 331px;
+        padding-top: 20px;
+    }
+    
+    .item_right1_1_1 {
+        width: 240px;
+    }
+    
+    .item_right1 a {
+        text-decoration: none;
+        color: #2394ff;
+    }
+    
+    .brand_right_right {
+        padding: 0px 20px;
+    }
